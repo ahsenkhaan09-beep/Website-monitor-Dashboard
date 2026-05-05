@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #91a6d7;
+  color: white;
+}
+
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-body {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  
+}
+
+section {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 16px;
+}
+.add-website-card,
+.website-list,
+.analytics-chart,
+.email-panel
+.theme-toggle {
+   width: 280px !important;
+  display: inline-block !important;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+.site-card {
+  display: flex;
+  justify-content: space-between;
+   background: #1e293b;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.chart-placeholder {
+  height: 200px;
+   background: #1e293b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}

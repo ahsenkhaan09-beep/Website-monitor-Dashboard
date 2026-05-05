@@ -1,0 +1,17 @@
+.Sidebar {
+  width: 220px;
+  background: #91a6d7;
+  min-height: 100vh;
+  padding: 20px;
+}
+.Sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.Sidebar li {
+  padding: 12px;
+  margin: 10px 0;
+  background: #07aaef;
+  border-radius: 10px;
+  cursor: pointer;
+}
