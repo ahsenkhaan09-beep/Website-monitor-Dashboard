@@ -2,20 +2,25 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #84b3dc;
-  height: 100vh;
+  background: hsl(209, 26%, 81%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .login-container {
-  background: rgb(79, 170, 209);
-  padding: 40px;
-  border-radius: 10px;
-  width: 300px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
-  text-align: center;
+  background: rgb(#92a6b8);
+  height: 100vh;
+  width: 100%;
+  border-radius: 10px;  
+  display: flex;
+  box-shadow: #0a0a0b;
+  border-radius: 0%;
+  border: #0a0a0b;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .login-container h1 {
@@ -44,9 +49,9 @@ body {
 .login-btn {
   width: 100%;
   padding: 10px;
-  background: #1c2024;
+  background: black;
   border: none;
-  color: white;
+  color: #f9fafc;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
@@ -68,17 +73,27 @@ body {
   background: #92a6b8;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .sign {
-  background: rgb(79, 170, 209);
-  padding: 40px;
-  width: 300px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #92a6b8
+
+}
+.signup-box {
+  width: 350px;
+  background: #92a6b8;
+  padding: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sign input {
@@ -104,4 +119,4 @@ body {
 .sign a {
   text-decoration: none;
   color: #0c0b0d;
-}
+} 

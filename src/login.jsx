@@ -30,7 +30,7 @@ export default function Login() {
 
       <div className="signup-link">
         Don't have an account?{" "}
-        <a href="#" onClick={() => navigate("/signup")}>
+        <a href="#" onClick={() => navigate("/Signup")}>
           signup
         </a>
       </div>
